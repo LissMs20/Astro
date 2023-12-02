@@ -1,0 +1,160 @@
+.background {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    width: 100%;
+    padding-bottom: 120px;
+    display: block;
+  }
+
+.header {
+    display: flex;
+}
+
+.logo-img {
+    margin: 20px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    display: flex;
+}
+
+.fixed-bar {
+    position: initial;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to left, rgba(12, 78, 145, 0.6), rgba(0, 0, 0, 0.0));
+    color: #f4f5ea;
+    align-self: center;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+h2 {
+    display: inline;
+    margin: 40px;
+    font-family: 'Kodchasan';
+    font-size: larger;
+}
+  
+.fixed-bar h2 {
+    cursor: pointer;
+    transition: color 0.5s ease, font-size 0.4s ease;
+}
+  
+.fixed-bar h2:hover{
+    color: #12a3ec;
+    font-size: 1.4em;
+}
+  
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text1 {
+    font-family: 'Kodchasan';
+    text-align: center;
+    color: #f4f5ea;
+    margin-bottom: 40px;
+}
+
+.text2 {
+    font-family: 'Kodchasan';
+    text-align: center;
+    color: #f4f5ea;
+    margin-top: 40px;   
+}
+
+.presentation {
+    margin-right: 40%;
+    margin-top: 60px;
+    animation: moveText 3s infinite alternate;
+}
+  
+@keyframes moveText {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+}
+
+.title {
+    text-align: center;
+    font-family: 'Lexend';
+    margin-top: -40px;
+    margin-bottom: -40px;
+    color: #12a3ec;
+    font-size: xx-large;
+}
+
+body {
+    background-image: url('/assets/pexels-pixabay-220201.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.img-content {
+    width: 40%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    margin-left: 80px;
+}
+
+.description-content {
+    font-family: 'Kodchasan';
+    text-align: center;
+    color: #f4f5ea;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    background-color: rgb(4, 20, 36, 0.8);
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.title-content{
+    font-family: 'Kodchasan';
+    color: #6dace5;
+}
+
+.date-content {
+    font-family: 'Kodchasan';
+    color: #6dace5;
+    font-size: larger;
+}
+
+.copyright-content {
+    font-family: 'Kodchasan';
+    color: #b5a490;
+    font-size: large;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.sem-dados {
+    font-family: 'Kodchasan';
+    color: #b5a490;
+    margin: 20px;
+}
